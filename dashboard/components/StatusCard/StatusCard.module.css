@@ -1,0 +1,63 @@
+.card{
+    background: #242424;
+    grid-column: span 3 / span 3
+}
+
+@media (max-width:1800px) {
+    .card{
+    grid-column: span 4 / span 4;
+}
+}
+
+@media (max-width:1400px) {
+    .card{
+    grid-column: span 6 / span 6;
+}
+}
+
+@media (max-width:767px) {
+    .card{
+    grid-column: span 12 / span 12;
+}
+}
+
+.card_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    padding:20px; 
+}
+
+.card_header h6{
+    font-size: 2.4rem;
+    text-overflow: ellipsis;
+}
+
+.card_body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left:20px;
+}
+
+.percentage{
+    font-size: 1.6rem;
+    font-weight:500;
+}
+
+.green{
+    color:#00ff00;
+}
+
+.red{
+    color:#e03a45;
+}
+
+.yellow{
+    color:#ffff00;
+}
+
+.blue{
+    color:#00ffcc;
+}
